@@ -63,6 +63,7 @@ function hoursWorkedOnDate(dateWorked) {
 }
 
 function wagesEarnedOnDate(date) {
+    debugger
     return ((hoursWorkedOnDate.call(this, date)) * this.payPerHour)
 }
 
